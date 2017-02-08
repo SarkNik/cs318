@@ -1,0 +1,15 @@
+body {
+    background-color: aquamarine;
+}
+
+h3 {
+    font-size: 24pt;
+    font-family: 'Anton', sans-serif;
+    text-shadow: text-shadow: 4px 1px 5px #000000
+}
+
+.answer {
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+}

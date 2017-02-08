@@ -1,0 +1,14 @@
+.square {
+    width: 100px;
+    height: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: orange;
+    display: inline-block;
+}
+
+#highlighted {
+    border-color: blue;
+    
+}
