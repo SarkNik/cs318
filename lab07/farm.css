@@ -1,0 +1,23 @@
+body {
+    background-image: url(farm.jpg);
+    background-repeat: no-repeat;
+       background-color: #D9801A;
+}
+
+#text h1 {
+    color: red;
+}
+
+#text a {
+    color: yellow;
+}
+
+#text {
+    background-image: url(cow1.png);
+    background-repeat: no-repeat;
+    margin-top: 533px;
+    text-align: right;
+    height: 500px;
+    width: auto;
+    background-color: #D9801A;
+}
