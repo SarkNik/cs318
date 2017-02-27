@@ -1,0 +1,49 @@
+#headshot1 {
+    background-image: url(http://s.huffpost.com/contributors/dr-john-johnson/headshot.jpg);
+    background-size: 100%;
+    border-radius: 90%;
+}
+
+#headshot2 {
+    background-image: url(http://www.frostscience.org/wp-content/uploads/2016/04/Frank_Headshot_web-400x400.jpg);
+    background-size: 100%;
+    border-radius: 90%;
+}
+
+#headshot3 {
+    background-image: url(http://www.sru.edu/Images/about/presidents-office/President-norton-headshot.jpg);
+    background-size: 100%;
+    border-radius: 90%;
+}
+
+#headshot4 {
+    background-image: url(http://s.huffpost.com/contributors/tom-udall/headshot.jpg);
+    background-size: 100%;
+    border-radius: 90%;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 10px 10px 5px black;
+    position: relative;
+}
+
+.photo:hover {
+    background-color: blue;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.name {
+font-size: 18px;
+font-family: sans-serif;
+color: lightblue;
+text-shadow: 2px 2px black;
+position: absolute;
+left: 55px;
+bottom: -40px;
+text-align: center;
+}

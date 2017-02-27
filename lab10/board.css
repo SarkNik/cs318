@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(cork.jpg);
+    background-repeat: repeat-y;
+}
+
+.photo {
+width: 450px;
+height: 500px;
+background-color: white;
+display: inline-block;
+padding: 20px;
+position: relative;
+left: 0px;
+top: 0px;
+right: 0px;
+margin-left: 50px;
+margin-right: 50px;
+
+
+}
+
+.pin {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+}
+
+.label {
+    font-family: Marker;
+    position: absolute;
+    left: 50%;
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(PermanentMarker.ttf)
+}
+
+img {
+    box-shadow: 10px 10px 5px black;
+}
+
+#p1 {
+    transform: rotate(5deg);
+}
+
+#p2 {
+    transform: rotate(-5deg);
+}
+
+#p3 {
+    transform: rotate(10deg);
+}
