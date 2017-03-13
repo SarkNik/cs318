@@ -1,0 +1,90 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    float: left;
+    clear: both;
+    background-color: red;
+    width: 20em;
+    height: 10000px;
+    padding: 10px;
+}
+
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: green;
+}
+
+main {
+    position: absolute;
+    left: 20em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+aside {
+    float: right;
+    background-color: beige;
+    width: 10em;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14pt;
+    color: lightblue;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+#poem {
+    white-space: pre-wrap;
+    box-shadow: inset;
+}
+
+@media (max-width: 60em) {
+   nav{
+
+height: auto;
+width: 100%;
+   } 
+
+   li {
+       display: inline;
+   }
+
+
+   span {
+       display: none;
+   }
+   aside{
+       display: inline;
+   }
+
+   main {
+       position: static;
+   }
+}
