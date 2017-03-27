@@ -1,0 +1,18 @@
+td:hover {
+    background-color: yellow;
+}
+
+#free {
+background-color: lightblue;
+}
+
+td {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+}
