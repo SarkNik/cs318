@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+h1 { 
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+
+
+li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+#one {
+    border-top: 10px solid white;
+    border-bottom: 10px solid gray;
+    border-left: 10px solid gray;
+    border-right: 10px solid gray;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 10px solid gray;
+    border-right: 10px solid gray;
+    width: 100px;
+    height: 100px;
+}
+
+#three {
+    border-top: 10px solid white;
+    border-left: 10px solid gray;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+#four {
+    border: 10px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+#red {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+}
+
+#orange {
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+}
+
+#yellow {
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+}
+
+#green {
+    width: 100px;
+    height: 20px;
+    background-color: green;
+}
+
+#blue {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}

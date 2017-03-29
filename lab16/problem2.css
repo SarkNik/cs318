@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to bottom, #FEFFC4, #E8AF19) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    color: white;
+}
+
+.fixedBar {
+    height: 100px;
+    width: 100%;
+    background-color: #353A3B;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+main {
+padding-top: 100px;
+}
+
+#google {
+height: 40px;
+float: right;
+}
+
+#uwec {
+    width: 75x;
+    height: 75px;
+    margin: 0 auto;
+    display: block;
+}
+
+#oneBox {
+    float: right;
+    width: 250px;
+    height: 150px;
+    border: 5px solid black;
+    margin-left: 10px;
+    
+}
+
+#one {
+    width: 225px;
+    height: 125px;
+    background-color: salmon;
+    margin: 0 auto;
+    margin-top: 12px;
+
+}
+
+#two {
+    float: left;
+    width: 250px;
+    height: 150px;
+    background-color: salmon;
+    border: 5px solid black;
+    margin-right: 10px;
+}
+
+#three {
+    float: right;
+    width: 250px;
+    height: 150px;
+    background-color: salmon;
+    border: 5px solid black;
+    margin-left: 10px;
+}
+
+@media (max-width: 60em) {
+
+
+}
