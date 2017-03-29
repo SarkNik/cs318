@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DAFDFF;
+}
+
+.stamp {
+display: inline-block;
+width: 300px;
+height: 300px;
+margin: 10px;
+border: 4px dashed #0C8744;
+box-shadow: 10px 10px 5px #888888
+}
+
+#egypt {
+background-image: url(egyptflag.gif), url(egypt.jpg);
+background-position: right top, left top;
+background-repeat: no-repeat, repeat;
+background-size: 120px auto, 300px auto;
+}
+
+#peru {
+background-image: url(peruflag.gif), url(peru.jpg);
+background-position: right top, left top;
+background-repeat: no-repeat, repeat;
+background-size: 120px auto, 300px auto;  
+}
+
+#iran {
+background-image: url(iranflag.gif), url(iran.jpg);
+background-position: right top, left top;
+background-repeat: no-repeat, repeat;
+background-size: 120px auto, 300px auto;     
+}
+
+#ghana {
+background-image: url(ghanaflag.gif), url(ghana.png);
+background-position: right top, left top;
+background-repeat: no-repeat, repeat;
+background-size: 120px auto, 300px auto;     
+}
