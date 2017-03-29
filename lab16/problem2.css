@@ -72,6 +72,23 @@ float: right;
 }
 
 @media (max-width: 60em) {
+        #one {
+            width: 250px;
+            height: 150px;
+            margin-right: 0;
 
+    }
+
+    #two {
+        width: 250px;
+        height: 150px;
+        margin-right: 0;
+    }
+
+    #three {
+        width: 250px;
+        height: 150px;
+        margin-right: 0;
+    }
 
 }
