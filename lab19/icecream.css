@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10px;
+}
+label {
+    display: block;
+    width: 200px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+
+}
+form {
+    background-color: aqua;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    width: 140px;
+}
+
+#button {
+position: relative;
+left: 45%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
