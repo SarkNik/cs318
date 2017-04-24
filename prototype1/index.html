@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gun Trusts Wisconsin</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="page-wrap">
+
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="getstarted.html">Get Started</a>
+                </li>
+                <li>
+                    <a href="testimonials.html">Testimonials</a>
+                </li>
+                <li>
+                    <a href="benefits.html">Benefits</a>
+                </li>
+                <li>
+                    <a href="attorneys.html">Attorneys</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>
+                <a href="index.html">Gun Trusts Wisconsin - Firearm Trusts</a>
+            </h1>
+        </header>
+
+        <main>
+            <div class="slideShow">
+                <img class="mySlides" src="gun1.jpg" style="width:100%">
+                <img class="mySlides" src="gun2.jpg" style="width:100%">
+                <img class="mySlides" src="gun3.jpg" style="width:100%">
+                <img class="mySlides" src="gun4.jpg" style="width:100%">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000); // Change image every 3 seconds
+                }
+            </script>
+            <h4>THE RIGHT OF THE PEOPLE TO KEEP AND BEAR ARMS SHALL NOT BE INFRINGED<h4>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2017 Law Office of Wisconsin. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
