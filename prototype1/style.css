@@ -1,97 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #002244;
+    background-color: #848484;
+    background-size: cover;
+
 }
 
-p {
-    padding: 10px;
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+  background: radial-gradient(circle, #E2E2E2, #BEBEBE) no-repeat center center fixed;
 }
 
-main h2 {
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-main h4 {
+.footer {
+    padding: 14px 0px;
+    background-color: #1976d2;
     text-align: center;
-    padding-bottom: 30px;
+    color: #ffffff;
 }
 
-#page-wrap {
-    width: 80%;
-    max-width: 800px;
-    margin: 50px auto 50px auto;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
-    background-color: #FFAA44;
-    display: block;
+.header {
+    position: relative;
 }
 
-#nav ul {
-    list-style-type: none;
+.header img {
+    width: 100%;
 }
 
-#nav li {
-    display: inline-block;
-    padding: 10px 24px;
+.header h2 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 400px;
+}
+.header h2 span { 
+   color: #000000; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background-color: #b86700;
+   padding: 10px; 
 }
 
-#nav a {
-    text-decoration: none;
-    color: #000000;
-}
-
-#nav a:hover {
-    color: #FFFFFF;
-}
-
-header {
-    display: block;
-    background-color: #004A7B; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-header h1 a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-footer {
-    background-color: #004A7B;
-    text-align: center;
-}
-
-.mySlides {
-    display: none;
-}
-
-.slideShow {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 350px;
-    padding-top: 30px;
-}
-
-#map {
-    float: right;
-    width: 300px;
-    padding-right: 10px;
+.header h2 span.spacer {
+   padding:0 5px;
 }
 
 #form {
-    width: 400px;
+    display: block;
     float: left;
+    width: 400px;
+    padding: 20px 10px;
 }
 
+
 .clearfix {
-    overflow: auto;
+   overflow: auto;
+}
+
+#map {
+    display: block;
+    float: right;
+    width: 300px;
+    padding: 20px 10px;
 }
 
 label { 
@@ -115,35 +88,72 @@ input[type=submit] {
     margin-left: 130px;
 }
 
-.quote {
-    float: left;
-    width: 450px;
-    padding-bottom: 20px;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1976d2;
 }
 
-.quotePerson {
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #ffffff;;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #63a4ff;
+  color: #000000;
+}
+
+ul.topnav li a.active {
+  background-color: #ef941f;
+}
+
+.mHeader {
+    display: none;
+}
+
+main h1, h2, h3, h4, p {
+    padding: 20px 10px;
+}
+
+main h4 {
+    padding-left: 40px;
+}
+
+#bioBrad {
     float: right;
-    width: 200px;
-    padding-bottom: 20px;
-    line-height: 60px;
+    width: 450px;
+    padding-right: 40px;
+    padding-top: 80px;
 }
 
 #picBrad {
     float: left;
     width: 150px;
-    padding-left: 30px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #picBrad img {
     width: 150px;
     height: auto;
-    border: 1px solid #002244;
-
+    border: 1px solid #1976d2;
 }
 
 #paperDoc {
     float: right;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 #paperDoc img {
@@ -151,90 +161,130 @@ input[type=submit] {
     height: auto;
 }
 
-#bioBrad {
-    float: right;
+.quote {
+    float: left;
     width: 450px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
+.quotePerson {
+    float: right;
+    width: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    line-height: 60px;
+}
 
-@media only screen and (max-width: 620px) {
-    #page-wrap {
+.frontText {
+    padding: 20px 0;
+
+}
+@media screen and (max-width: 800px) {
+    ul.topnav li {
+    float: none;
+  }
+    #wrapper {
         width: 100%;
-        min-width: 0;
     }
-
-    #nav li {
-        background-color: #004A7B;
-        border: 1px solid #B26F1E;
-        padding: 10px 24px; 
-        cursor: pointer; 
-        width: 100%; 
-        display: block; 
+    #form {
+        float: none;
+        width: 100%;
     }
-
-    #nav a {
-        color: #FFFFFF;
+    #map {
+        float: none;
+        width: 100%;
     }
-    header {
-        background-color: #FFAA44; 
+    .header {
+        display: none;
     }
-    header h1 a {
-        color: #000000;
-    }
-
-    .slideShow {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    }
-
-    #picBrad {
-    float: none;
-    width: 150px;
-    padding-left: 10px;
-    }
-
-    #bioBrad {
-    float: none;
-    width: auto;
-    padding-top: 10px;
-    }
-
-    #paperDoc {
-    float: none;
-    padding-left: 10px;
-    }
-
-    #paperDoc img {
-    width:80%;
-    height: auto;
+    .mHeader {
+        display: initial;
     }
 
     .quote {
     float: none;
-    width: auo;
+    width: 90%;
     padding-bottom: 5px;
-    }
+    padding-top: 0;
+    display: inherit;
+}
 
-    .quotePerson {
+.quotePerson {
     float: none;
-    width: auto;
-    padding-bottom: 10px;
-    line-height: normal;
-    }
-
-    #map {
-    float: none;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 25px;
+    padding-top: 0;
     padding-right: 0;
-    padding-left: 10px;
-    }
+    line-height: normal;
+    display: inherit;
+}
 
-    #form {
-    width: auto;
+#bioBrad {
     float: none;
-    }
+    width: 90%;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#picBrad {
+    float: none;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#picBrad img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #1976d2;
+}
+#paperDoc {
+    float: none;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+#paperDoc img {
+    width:300px;
+    height: auto;
+}
+
+#form {
+    display: block;
+    float: none;
+    width: 90%;
+    padding: 20px 10px;
+}
+
+#map {
+    display: block;
+    float: none;
+    width: 90%;
+    padding: 20px 10px;
+}
+
+label { 
+    float: left;
+    display: block;
+    text-align: left;
+    width: 80px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+}
+
+.g-recaptcha {
+    margin-left: 10px;
+}
 
 }
