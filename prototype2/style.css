@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1E1E20;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#wrapper {
+	box-shadow: 0 0 20px rgba(217, 203, 158, .5);
+	background-color: #d9cb9e;
+	margin: 60px auto;
+	width: 800px;
+	border-radius: 10px;
+	border: 1px solid #2A2C2B;
+	box-sizing: content-box;
+}
+
+.navBar {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #2A2C2B;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.navBar li {
+	float: left;
+    width: 160px;
+}
+
+.navBar li a {
+	color: #d9cb9e;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px 16px;
+	display: block;
+	font-weight: bold;
+
+}
+
+.navBar li a:hover:not(.active) {
+	background-color: #374140;
+	color: #d9cb9e;
+}
+
+.navBar li a.active {
+	background-color: #6f0c0f;
+	color: #ffffff;
+}
+
+.leftContent {
+	float: left;
+	width: 400px;
+	padding: 10px;
+}
+
+.benifitsList ul li {
+	padding-bottom: 15px;
+	margin-left: 25px;
+}
+
+#paperDocPic img {
+    width:390;
+}
+
+
+
+.rightContent {
+	float: right;
+	width: 400px;
+	padding: 10px;
+	color: #1E1E20;
+}
+
+#footer {
+	padding: 30px 0;
+	background-color: #2A2C2B;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #d9cb9e;
+}
+
+#header #headerImgText {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 280px;
+	background-color: #6f0c0f;
+}
+
+#header #headerImgText span {
+	color: #d9cb9e;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#header #headerImgText span.spacer {
+	padding: 0 10px;
+}
+
+#header #headerImg {
+	width: 100%
+}
+
+#header {
+	position: relative;
+}
+
+.pageTitle {
+	padding: 10px;
+	color: #1E1E20;
+}
+
+form {
+	padding-top: 20px;
+}
+
+form p {
+	margin-left: 80px;
+	color: #1E1E20;
+}
+
+label { 
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+    color: #1E1E20;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 245px;
+    height: 145px;
+	margin-bottom: 10px;
+    resize: none;
+}
+
+input[type=submit] {
+    margin-left: 140px;
+    border-radius: 8px;
+    padding: 4px 16px;
+    background-color: #6f0c0f;
+    color: #d9cb9e;
+}
+
+.g-recaptcha {
+    margin-left: 40px;
+    transform: scale(.77);
+}
+
+#bradPic img {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.quote {
+	float: left;
+	width: 65%;
+	padding: 15px 10px;
+}
+
+.quotePerson {
+	float: right;
+	width: 35%;
+	line-height: 95px;
+}
+
+.singleColContent {
+	margin-left: 50px;
+}
+
+.benifitsList {
+	padding: 10px;
+}
+
+.benifitsList ul li {
+	margin-bottom: 15px;
+}
+
+.benifitsList img {
+	float: right;
+	width: 350px;
+}
+
+
+
+/*
+################ Media Query - Mobile ######################
+*/
