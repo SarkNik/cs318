@@ -201,8 +201,183 @@ input[type=submit] {
 	width: 350px;
 }
 
+.mobileDropdown {
+	display: none;
+}
+
+#mHeader {
+	display: none;
+}
 
 
 /*
-################ Media Query - Mobile ######################
+################ Media Query ######################
 */
+
+
+@media (max-width: 800px) {
+#wrapper {
+	box-shadow: none;
+	margin: 0;
+	width: inherit;
+	border-radius: 0;
+	border: none;
+}
+.navBar {
+display: none;
+}
+#footer {
+	border-radius: 0;
+}
+#header #headerImgText {
+display: none;
+}
+#header #headerImg {
+	display: none;
+}
+#header {
+	background-color: #2A2C2B;
+		padding: 10px 0;
+}
+#mHeader {
+	display: initial;
+	color: #d9cb9e;
+
+}
+.mobileDropdown {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+
+	border-left: 1px solid #d9cb9e;
+}
+	.mobileDropdown:hover .dropdown-content {
+		display: block;
+	}
+		.dropdown-content {
+		text-align: left;
+		font-size: 12px;
+		left: auto;
+		right: 0;
+		min-width: 160px;
+	}
+	.dropdown:hover .dropbtn {
+	background-color: #708090;
+	cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #374140;
+}
+.dropdown-content a {
+	color: #d9cb9e;;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid #d9cb9e;;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #2A2C2B;;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #ffffff;
+}
+.dropbtn {
+	background-color: #2A2C2B;
+	color: #d9cb9e;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+form {
+	padding-top: 0;
+}
+
+form p {
+	margin-left: 0;
+}
+
+label { 
+    float: none;
+    display: block;
+    text-align: left;
+    width: 120px;
+    padding-right: 0;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 245px;
+    height: 145px;
+	margin-bottom: 10px;
+    resize: none;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 4px 16px;
+    background-color: #6f0c0f;
+    color: #d9cb9e;
+}
+
+.g-recaptcha {
+    margin-left: 0;
+    transform: scale(.5);
+}
+
+.leftContent {
+	float: none;
+	width: 100%;
+}
+
+.rightContent {
+	float: none;
+	width: 100%;
+}
+
+.benifitsList {
+	padding: 10px;
+}
+
+.benifitsList ul li {
+	margin-bottom: 15px;
+}
+
+.benifitsList img {
+	float: none;
+	width: 100%;
+}
+.quote {
+	float: none;
+	width: 100%;
+	padding: 15px 10px;
+}
+
+.quotePerson {
+	float: none;
+	width: 100%;
+	padding-left:10px;
+	padding-bottom:10px;
+	line-height: inherit;
+}
+
+.singleColContent {
+	margin-left: 0;
+}
+}
