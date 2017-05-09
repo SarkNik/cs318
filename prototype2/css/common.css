@@ -97,6 +97,19 @@ body {
 #header {
 	position: relative;
 }
+#homeContent {
+	padding: 10px;
+	font-size: 1.25em;
+	text-align: center;
+}
+#homeContent img {
+	padding-top: 20px;
+}
+#homeTitle {
+	text-align: center;
+	font-size: 2em;
+	color: #6f0c0f;
+}
 .pageTitle {
 	padding: 10px;
 	color: #1E1E20;
@@ -328,4 +341,8 @@ input[type=submit] {
 	.singleColContent {
 		margin-left: 0;
 	}
+	#homeContent img {
+	padding-top: 0;
+	display: none;
+}
 }
