@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 body {
 	background-color: #1E1E20;
@@ -43,7 +44,7 @@ body {
 }
 .navBar li a.active {
 	background-color: #6f0c0f;
-	color: #ffffff;
+	color: #d9cb9e;
 }
 .leftContent {
 	float: left;
@@ -156,6 +157,7 @@ input[type=submit] {
 }
 #bradBio {
 	padding-top: 120px;
+	font-size: 120%;
 }
 .quote {
 	float: left;
@@ -185,6 +187,11 @@ input[type=submit] {
 }
 #mHeader {
 	display: none;
+}
+.map {
+	width: 90%;
+	height: 300px;
+	border: none;
 }
 
 /*
@@ -295,10 +302,7 @@ input[type=submit] {
 		margin-bottom: 20px;
 	}
 	textarea {
-		width: 245px;
-		height: 145px;
-		margin-bottom: 10px;
-		resize: none;
+		width: 200px;
 	}
 	input[type=submit] {
 		margin-left: 10px;
@@ -345,7 +349,12 @@ input[type=submit] {
 		margin-left: 0;
 	}
 	#homeContent img {
-	padding-top: 0;
-	display: none;
-}
+		width: 90%;
+	}
+	#bradBio {
+		padding-top: 10px;
+	}
+	#map {
+		width: 90%;
+	}
 }
